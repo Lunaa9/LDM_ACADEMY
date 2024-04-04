@@ -1,0 +1,95 @@
+-------------Control de Asistencia de Estudiantes:----------------
+
+Requisitos Funcionales:
+
+El estudiante puede registrar su asistencia a clase mediante un código QR o un dispositivo biométrico.
+Se registra la fecha y hora de la asistencia.
+El estudiante puede ver su historial de asistencias.
+El docente puede ver la asistencia de sus estudiantes en tiempo real.
+El docente puede ver el historial de asistencias de cada estudiante.
+El docente puede descargar un informe de asistencias.
+
+Requisitos No Funcionales:
+
+La aplicación debe ser fácil de usar y tener una interfaz intuitiva.
+La aplicación debe ser segura y proteger la privacidad de los datos de los estudiantes.
+La aplicación debe estar disponible en diferentes idiomas(ingles).
+El sistema debe ser escalable para poder manejar un gran número de estudiantes y registros de asistencia.
+El sistema debe ser confiable y tener una alta disponibilidad.
+-----------------Generar Novedades de los Estudiantes:------------
+
+Requisitos Funcionales:
+
+El docente puede publicar novedades de forma rápida y sencilla.
+Las novedades deben ser visibles para todos los estudiantes y sus familias.
+Las novedades deben poder ser filtradas por curso, materia o fecha.
+Los estudiantes y sus familias deben poder recibir notificaciones cuando se publiquen nuevas novedades.
+
+Requisitos No Funcionales:
+
+La aplicación debe ser fácil de usar y tener una interfaz intuitiva.
+La aplicación debe ser segura y proteger la privacidad de los datos de los estudiantes.
+La aplicación debe estar disponible en diferentes idiomas.
+Las notificaciones deben ser directamente a los cordinadores.
+El sistema debe ser escalable para poder manejar un gran número de usuarios y novedades.
+-----Pedir Materiales Institucionales:----------------
+
+Requisitos Funcionales:
+
+El estudiante/docente puede solicitar materiales institucionales a través de un portal web o una aplicación móvil.
+El estudiante/docente puede seleccionar el material que necesita de un catálogo.
+El estudiante/docente puede indicar la cantidad de material que necesita.
+El estudiante/docente puede indicar la fecha en la que necesita el material.
+El estudiante/docente debe recibir una notificación cuando el material esté disponible.
+Requisitos No Funcionales:
+
+La aplicación debe ser fácil de usar y tener una interfaz intuitiva.
+La aplicación debe ser segura y proteger la privacidad de los datos de los estudiantes/docentes.
+La aplicación debe estar disponible en diferentes idiomas (ingles).
+El proceso de solicitud de materiales debe ser eficiente.
+El sistema debe ser escalable para poder manejar un gran número de solicitudes de materiales.
+
+--------------Parqueadero:---------------
+
+Requisitos Funcionales:
+
+El usuario puede buscar y reservar un lugar de estacionamiento en un parqueadero.
+El usuario puede ver la disponibilidad de lugares de estacionamiento en tiempo real.
+El usuario puede reservar un lugar de estacionamiento con antelación.
+El usuario puede pagar la reserva de un lugar de estacionamiento a través de la aplicación móvil.
+El administrador del parqueadero puede ver la disponibilidad de lugares de estacionamiento en tiempo real.
+El administrador del parqueadero puede gestionar las reservas de lugares de estacionamiento.
+El administrador del parqueadero puede generar informes sobre la ocupación del parqueadero.
+
+Requisitos No Funcionales:
+
+La aplicación móvil y la aplicación web deben ser fáciles de usar y tener una interfaz intuitiva.
+Las aplicaciones deben ser seguras y proteger la privacidad de los datos de los usuarios.
+Las aplicaciones deben estar disponibles en diferentes idiomas.
+El proceso de búsqueda y reserva de un lugar de estacionamiento debe ser eficiente.
+El sistema debe ser escalable para poder manejar un gran número de usuarios y reservas.
+El sistema debe ser confiable y tener una alta disponibilidad.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
