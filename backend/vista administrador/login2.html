@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="login2.css">
+    <title>Login y registros</title>
+</head>
+
+<body>
+    <div class="container" id="container">
+
+        <div class="form-container sign-up">
+            <h1>Registrarte</h1>
+            <form action="registrar.php" method="post">
+                <div class="social-icons">
+                    <a href="#" class="icons"><i class="fa-brands fa-google-plus-g"></i></a>
+                    <a href="#" class="icons"><i class="fa-brands fa-facebook-f"></i></a>
+                </div>
+                <span>Ingresa tu información</span>
+
+                <input type="text" name="nombre" placeholder="Nombre" required>
+                <input type="text" name="apellido" placeholder="Apellido" required>
+                <input type="text" name="correo" placeholder="Correo electronico" required>
+                <input type="password" name="contraseña" placeholder="Contraseña" required>
+                <input type="int" name="telefono" placeholder="Telefono" required>
+                <button type="submit" name="registrar">Confirmar</button>
+            </form>
+        </div>
+
+        <div class="form-container sign-in">
+            <form action="login.php" method="post">
+                <h1>Iniciar sesion</h1>
+                <div class="social-icons">
+                    <a href="#" class="icons"><i class="fa-brands fa-google-plus-g"></i></a>
+                    <a href="#" class="icons"><i class="fa-brands fa-facebook-f"></i></a>
+                </div>
+                <span>Ingresa tu información</span>
+                <input type="text" name="correo" placeholder="Correo electronico">
+                <input type="password" name="contraseña" placeholder="Contraseña">
+                <a href="olvido su contraseña.html">¿Olvidaste tu contraseña?</a>
+                <input type="submit" name="login" id="" name="login" value="Entrar">
+            </form>
+        </div>
+        <div class="toggle-container">
+            <div class="toggle">
+                <div class="toggle-panel toggle-left">
+                    <h1>INGRESAR</h1>
+                    <p>ingresa tus datos personales para acceder a nuestro sitio web</p>
+                    <button class="hidden" id="login">Inicia sesion</button>
+                </div>
+                <div class="toggle-panel toggle-right">
+                    <h1>Bienvenido</h1>
+                    <p>Registra tus datos personales para acceder a nuestro sitio web</p>
+                    <button class="hidden" id="register">Registrarse</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="./js/login2.js"></script>
+</body>
+
+</html>
