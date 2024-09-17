@@ -1,0 +1,124 @@
+*{
+    bottom: 2%;
+    margin: 30px;
+    padding: 15px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    flex-wrap: wrap;
+    background: linear-gradient(to right, #e2e2e2, #c9d6ff);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+}   
+
+.container{
+    background-color: white;
+    border-radius: 30px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.35); 
+    position: relative;
+    overflow: hidden;
+    width: 768px;
+    max-width: 100%;
+    min-height:500px;
+    
+} 
+.container {
+    display: flex;
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center;     /* Centra verticalmente */
+    height: 100vh;           /* Hace que el contenedor ocupe toda la altura de la ventana */
+  }
+.container button{
+    border-radius: 30vh;
+    background-color: #5e7fee;
+    color: #fff;
+    font-size: 12px;
+    padding: 10px 45px;
+    border: 1px solid transparent;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    cursor: pointer;
+   
+    
+    
+}
+h1 {
+     display: center;
+     color: black;
+     padding: 5px;
+
+
+}
+input {
+    color: black;
+    margin: 30px;
+    background-color: transparent;
+    display: flex;
+    border: transparent;
+    border-radius: 3px;
+    padding: 5px;
+    align-items: 50px;
+    display: block;
+    padding: 1px;
+    font-size: 16px;
+
+    
+}
+
+.centered-input {
+    padding: 10px;
+    font-size: 16px;
+  }
+select{
+    border: solid transparent;
+    color: black;
+    font-size: 12px;
+    padding: 5px 30px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    margin-top: 5px;
+    cursor: pointer;    
+    border-radius: 3px;
+    background-color: transparent;
+    color: black; /* Color del texto inicial */
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+
+
+}
+option{
+    color: black;
+    background-color: white;
+    position: center;
+    justify-content: center;
+}
+.hover {
+    background-color: #7988f7; /* Color al pasar el cursor */
+    color: black; /* Color del texto al pasar el cursor */
+  }
+/* TABLET*/
+@media(min-width:768px) and (max-width: 990px) {
+    .desktop{
+        display: none;
+    }
+    .movil{
+        display: none;
+    }
+}
+/* ESCRITORIO*/
+@media(min-width:991px){
+    .tablet{
+        display:none;
+    }
+    .movil{
+        display: none;
+    }
+}
